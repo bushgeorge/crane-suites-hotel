@@ -1753,7 +1753,7 @@ async function submitBooking() {
   } catch(e) { console.warn('Formspree error', e); }
 
   // 2️⃣ Open WhatsApp with pre-filled message
-  const WHATSAPP_NUMBER = '254718340662'; // Cranes Suites number (no + or spaces)
+  const WHATSAPP_NUMBER = '254794070432'; // Cranes Suites number (no + or spaces)
   const msg = encodeURIComponent(
     `🏨 *New Reservation Request*\n\n` +
     `*Name:* ${fname} ${lname}\n` +
@@ -1765,7 +1765,7 @@ async function submitBooking() {
     `*Guests:* ${guests}\n` +
     `*Special Requests:* ${special || 'None'}`
   );
-  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, '_blank');
+  window.open(`https://wa.me/${0794070432}?text=${msg}`, '_blank');
 
   // 3️⃣ Show success screen
   document.getElementById('booking-form-wrap').style.display = 'none';
